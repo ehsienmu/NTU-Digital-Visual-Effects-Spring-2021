@@ -63,10 +63,12 @@ Language: python
 #### Radiance Map and Response Curve
 * 總圖：
 
-<img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="250">
+  <img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="250">
+
 * 社科院走廊：
 
-<img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
+  <img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
+
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
 * 先設<img src="https://i.imgur.com/wDMuecd.jpg" alt="" width="22">為已知反覆利用以下公式計算<img src="https://i.imgur.com/reQnFni.jpg" alt="" width="22">和<img src="https://i.imgur.com/wDMuecd.jpg" alt="" width="22">的值，直到converge (此處直接設定做8個循環)
@@ -87,15 +89,15 @@ Language: python
 我們實作了兩種方法：
 
 #### 1. Global 
-由HDR結果計算整張Image的平均亮度，再Normalized各個pixel，計算LDR的值。
+  由HDR結果計算整張Image的平均亮度，再Normalized各個pixel，計算LDR的值。
 
 #### 2. Local Operator（Dodging and burning）
-Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮，暗的地方更暗，加強對比。
+  Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮，暗的地方更暗，加強對比。
 
 #### 3. OpenCV: Drago
-使用OpenCV內建tone mapping的Drago method，我們認為自己做出來的方法飽和度比較不漂亮，所以找了一個現有的函式來運用。
+  使用OpenCV內建tone mapping的Drago method，我們認為自己做出來的方法飽和度比較不漂亮，所以找了一個現有的函式來運用。
 
-## 7.Tone mapping results
+## 7. Tone mapping results
 
 - Global Opertor
 
