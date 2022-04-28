@@ -1,12 +1,12 @@
 VFX hw2 report
 ===
-###### tags: `VFX`
 **b06303032 資管三 黃佳文
 b06504104 化工四 石子仙**
 
 
 ## 1. Description of this project
 依序拍攝同一定點不同方向之照片，運用feature detection將每張照片的feature找出，再使用feature matching與image matching將照片接在一起，並使用blending使得邊界不那麼明顯來得到一張全景圖。
+
 ## 2. Our images
 ### - 場景一：頂樓
 <img src="https://i.imgur.com/jNvfpRb.jpg" alt="" width="120">  <img src="https://i.imgur.com/UCy0L8I.jpg" alt="" width="120">  <img src="https://i.imgur.com/Ze0vaKw.jpg" alt="" width="120">  <img src="https://i.imgur.com/hm4KD5p.jpg" alt="" width="120">  <img src="https://i.imgur.com/8kN8Wqz.jpg" alt="" width="120">  <img src="https://i.imgur.com/VfFvPpc.jpg" alt="" width="120">  <img src="https://i.imgur.com/jasUndh.jpg" alt="" width="120">  <img src="https://i.imgur.com/DrQKU9M.jpg" alt="" width="120">  <img src="https://i.imgur.com/CyYIlmz.jpg" alt="" width="120">  <img src="https://i.imgur.com/rOK08gG.jpg" alt="" width="120">  <img src="https://i.imgur.com/eZMt7tn.jpg" alt="" width="120">  <img src="https://i.imgur.com/QT1Xzx6.jpg" alt="" width="120">  <img src="https://i.imgur.com/DKmDAZV.jpg" alt="" width="120">  <img src="https://i.imgur.com/LQFsbCl.jpg" alt="" width="120">   <img src="https://i.imgur.com/wSXceeR.jpg" alt="" width="120">  
@@ -77,9 +77,9 @@ b06504104 化工四 石子仙**
 ### - Blending
           
 - 我們採用一般的線性插值來blending。
-<img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">
+  <img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">
                                                              
-此圖來自課程投影片lec07_ImageStitching第41頁
+  此圖來自課程投影片lec07_ImageStitching第41頁
                                                              
 ## Our Panorama
 ### 1. Parrington（老師提供的dataset）
