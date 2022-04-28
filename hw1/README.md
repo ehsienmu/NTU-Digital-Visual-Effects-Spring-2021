@@ -65,7 +65,7 @@ Language: python
 <img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
-* 先設![equation](http://www.sciweavers.org/tex2img.php?eq=g%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=svg&fs=12&ff=arev&edit=) 為已知反覆利用以下公式計算 $E_i$ 和 $g$ 的值，直到converge (此處直接設定做8個循環)
+* 先設![equation](http://www.sciweavers.org/tex2img.php?eq=g&bc=White&fc=Black&im=svg&fs=12&ff=arev&edit=) 為已知反覆利用以下公式計算 (http://www.sciweavers.org/tex2img.php?eq=E_i&bc=White&fc=Black&im=svg&fs=12&ff=arev&edit=) 和 (http://www.sciweavers.org/tex2img.php?eq=g&bc=White&fc=Black&im=svg&fs=12&ff=arev&edit=) 的值，直到converge (此處直接設定做8個循環)
 <img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
 <img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
 
