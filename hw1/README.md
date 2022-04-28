@@ -79,11 +79,11 @@ Language: python
 #### Radiance Map and Response Curve
 * 總圖：
 
-  <img src="https://i.imgur.com/YZgQJ6k.png" alt="" height="350"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" height="350">
+  <img src="https://i.imgur.com/YZgQJ6k.png" alt="" height="350"><img src="https://i.imgur.com/dXFfRl1.png" alt="" height="350">
 
 * 社科院走廊：
 
-  <img src="https://i.imgur.com/TP37pAm.png" alt="" height="350"> <img src="https://i.imgur.com/dOPADBX.png" alt="" height="350">
+  <img src="https://i.imgur.com/TP37pAm.png" alt="" height="350"><img src="https://i.imgur.com/dOPADBX.png" alt="" height="350">
 
 ## 6. Tone mapping
 我們實作了兩種方法：
