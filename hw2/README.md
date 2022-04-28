@@ -5,7 +5,6 @@ VFX hw2 report
 b06504104 化工四 石子仙**
 
 
-##### * 所有圖片都可以點看原尺寸（需連網）
 ## 1. Description of this project
 依序拍攝同一定點不同方向之照片，運用feature detection將每張照片的feature找出，再使用feature matching與image matching將照片接在一起，並使用blending使得邊界不那麼明顯來得到一張全景圖。
 ## 2. Our images
@@ -15,9 +14,9 @@ b06504104 化工四 石子仙**
 <img src="https://i.imgur.com/CyYIlmz.jpg" alt="" width="120">]   <img src="https://i.imgur.com/rOK08gG.jpg" alt="" width="120">]   <img src="https://i.imgur.com/eZMt7tn.jpg" alt="" width="120">]   <img src="https://i.imgur.com/QT1Xzx6.jpg" alt="" width="120">]   <img src="https://i.imgur.com/DKmDAZV.jpg" alt="" width="120">]   <img src="https://i.imgur.com/LQFsbCl.jpg" alt="" width="120">]   <img src="https://i.imgur.com/wSXceeR.jpg" alt="" width="120">]  
 
 ### - 場景二：廣場
-<img src="https://i.imgur.com/BTgtxau.jpg" alt="" width="120">] BTgtxau  <img src="https://i.imgur.com/Ku7iHvm.jpg" alt="" width="120">] Ku7iHvm  <img src="https://i.imgur.com/F3GCP7Y.jpg" alt="" width="120">] F3GCP7Y  <img src="https://i.imgur.com/UUiGmva.jpg" alt="" width="120">] UUiGmva  <img src="https://i.imgur.com/eTdNOED.jpg" alt="" width="120">] eTdNOED  <img src="https://i.imgur.com/GcVfKX9.jpg" alt="" width="120">] GcVfKX9  <img src="https://i.imgur.com/1wbINIS.jpg" alt="" width="120">] 1wbINIS  <img src="https://i.imgur.com/fSqrKB0.jpg" alt="" width="120">] fSqrKB0  
+<img src="https://i.imgur.com/BTgtxau.jpg" alt="" width="120">  <img src="https://i.imgur.com/Ku7iHvm.jpg" alt="" width="120">  <img src="https://i.imgur.com/F3GCP7Y.jpg" alt="" width="120">  <img src="https://i.imgur.com/UUiGmva.jpg" alt="" width="120">  <img src="https://i.imgur.com/eTdNOED.jpg" alt="" width="120">  <img src="https://i.imgur.com/GcVfKX9.jpg" alt="" width="120">  <img src="https://i.imgur.com/1wbINIS.jpg" alt="" width="120">  <img src="https://i.imgur.com/fSqrKB0.jpg" alt="" width="120"> 
 
-<img src="https://i.imgur.com/Njhm8nz.jpg" alt="" width="120">] Njhm8nz  <img src="https://i.imgur.com/w3ep0dp.jpg" alt="" width="120">] w3ep0dp  <img src="https://i.imgur.com/ziXKEmO.jpg" alt="" width="120">] ziXKEmO  <img src="https://i.imgur.com/dOQLAnF.jpg" alt="" width="120">] dOQLAnF  <img src="https://i.imgur.com/ODTxjoR.jpg" alt="" width="120">] ODTxjoR  <img src="https://i.imgur.com/Bo5wflR.jpg" alt="" width="120">] Bo5wflR  <img src="https://i.imgur.com/C0wsPp9.jpg" alt="" width="120">] C0wsPp9  <img src="https://i.imgur.com/Yk6TpJ2.jpg" alt="" width="120">] Yk6TpJ2 
+<img src="https://i.imgur.com/Njhm8nz.jpg" alt="" width="120">  <img src="https://i.imgur.com/w3ep0dp.jpg" alt="" width="120">  <img src="https://i.imgur.com/ziXKEmO.jpg" alt="" width="120">  <img src="https://i.imgur.com/dOQLAnF.jpg" alt="" width="120">  <img src="https://i.imgur.com/ODTxjoR.jpg" alt="" width="120">  <img src="https://i.imgur.com/Bo5wflR.jpg" alt="" width="120">  <img src="https://i.imgur.com/C0wsPp9.jpg" alt="" width="120">  <img src="https://i.imgur.com/Yk6TpJ2.jpg" alt="" width="120">
 
 ## 3. 程式流程 
 1. Use autostitch to get focal length of all image.
@@ -36,9 +35,9 @@ b06504104 化工四 石子仙**
     5. 當R大於threshold且是local maximum就視為feature
 - 特徵點照片範例：
 
-<img src="https://i.imgur.com/kG0aEed.jpg" alt="" width="350">] kG0aEed  <img src="https://i.imgur.com/1PROMu6.jpg" alt="" width="350">] 1PROMu6 
+<img src="https://i.imgur.com/kG0aEed.jpg" alt="" width="350">  <img src="https://i.imgur.com/1PROMu6.jpg" alt="" width="350"> 
 
-<img src="https://i.imgur.com/BTVJ1Hu.jpg" alt="" width="350">] BTVJ1Hu  <img src="https://i.imgur.com/lGHOZ7o.jpg" alt="" width="350">] lGHOZ7o 
+<img src="https://i.imgur.com/BTVJ1Hu.jpg" alt="" width="350">  <img src="https://i.imgur.com/lGHOZ7o.jpg" alt="" width="350">
 
 
 
@@ -50,11 +49,11 @@ b06504104 化工四 石子仙**
 ### - Feature Matching
 - 先為每個feature做descriptor：
     1. 取此feature周圍的一塊影像
-    <img src="https://i.imgur.com/a3Ax6yj.png" alt="" width="250">] a3Ax6yj.png)
+    <img src="https://i.imgur.com/a3Ax6yj.png" alt="" width="250">
     2. 做gaussian blur
-    <img src="https://i.imgur.com/dcoH74a.png" alt="" width="250">] dcoH74a.png)
+    <img src="https://i.imgur.com/dcoH74a.png" alt="" width="250">
     3. 再將他轉成intensity
-    <img src="https://i.imgur.com/FFBi7Em.png" alt="" width="250">] FFBi7Em.png)
+    <img src="https://i.imgur.com/FFBi7Em.png" alt="" width="250">
     5. 最後再flatten成一維向量來作為此點的feature descriptor
 
 - 對於一個image中的每個feature，我們會計算在另一張image中距離最小的點，並且規定此mse要小於一定的threshold才算match。
@@ -69,7 +68,7 @@ b06504104 化工四 石子仙**
 
 ### - Blending
 - 我們採用一般的線性插值來blending。
-<img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">] cCH7nw4.png)
+<img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">
 此圖來自課程投影片lec07_ImageStitching第41頁
 ## Our Panorama
 ### 1. Parrington（老師提供的dataset）
