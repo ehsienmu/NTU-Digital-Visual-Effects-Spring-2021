@@ -77,6 +77,7 @@ b06504104 化工四 石子仙**
 ### - Blending
           
 - 我們採用一般的線性插值來blending。
+
   <img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">
                                                              
   此圖來自課程投影片lec07_ImageStitching第41頁
