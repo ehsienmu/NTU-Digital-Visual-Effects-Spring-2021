@@ -89,7 +89,7 @@ detect_threshold = 180000
 match_threshold = 400
 ```
                                                              
-<img src="https://i.imgur.com/tfjlwVB" alt="" width="500"> 
+<img src="https://i.imgur.com/tfjlwVB.jpg"> 
 
 ### 2. 頂樓
                                       
@@ -98,7 +98,7 @@ detect_threshold = 200000
 match_threshold = 600
 ```
                                       
-<img src="https://i.imgur.com/5Ml0fX6" alt="" width="500"> 
+<img src="https://i.imgur.com/5Ml0fX6.jpg"> 
 （天氣不好很像廢墟）
                                       
 ### 3. 廣場
@@ -108,6 +108,6 @@ detect_threshold = 4000
 match_threshold = 200
 ```
                                       
-<img src="https://i.imgur.com/jwI9mY2" alt="" width="500"> 
+<img src="https://i.imgur.com/jwI9mY2.jpg"> 
 
 
