@@ -59,7 +59,7 @@ Language: python
     <img src="https://i.imgur.com/Oh0eFON.jpg" alt="" width="300">
 #### Radiance Map and Response Curve
 * 總圖：
-![Library_radiance_map](https://i.imgur.com/7NjhVgV.png =400x) ![Library_response_curve](https://i.imgur.com/KMFT3t6.png =250x)
+<img src="https://i.imgur.com/7NjhVgV.png =400x) <img src="https://i.imgur.com/KMFT3t6.png =250x)
 * 社科院走廊：
 <img src="https://i.imgur.com/441sDyO.png =400x)<img src="https://i.imgur.com/NPtdAzt.png =250x)
 #### 2. Robertson's method：
@@ -91,7 +91,7 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
-| <img src="https://i.imgur.com/FTeENnw.jpg" alt="" width="235"> | <img src="https://i.imgur.com/Fp3VBLX.jpg" alt="" width="235"> | ![debevic/Drago](https://i.imgur.com/bemYupw.jpg" alt="" width="235">
+| <img src="https://i.imgur.com/FTeENnw.jpg" alt="" width="235"> | <img src="https://i.imgur.com/Fp3VBLX.jpg" alt="" width="235"> | <img src="https://i.imgur.com/bemYupw.jpg" alt="" width="235">
 
 
 
@@ -99,7 +99,7 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
-| <img src="https://i.imgur.com/nwlwE2x.jpg" alt="" width="150">      | <img src="https://i.imgur.com/rOU8DZg.jpg" alt="" width="150">     | ![debevic/Drago](https://i.imgur.com/jIosxwU.jpg" alt="" width="150">      |
+| <img src="https://i.imgur.com/nwlwE2x.jpg" alt="" width="150">      | <img src="https://i.imgur.com/rOU8DZg.jpg" alt="" width="150">     | <img src="https://i.imgur.com/jIosxwU.jpg" alt="" width="150">      |
 
 ## 8. 照片的快門秒數：
 [檔名] [快門秒數]
