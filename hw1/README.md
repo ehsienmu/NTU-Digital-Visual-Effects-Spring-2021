@@ -14,15 +14,15 @@ b06303032 資管三 黃佳文
 #### - 場景一 總圖：
 （快門紀錄在第8點）
 
-![Imgur Image](https://i.imgur.com/o3HqqjB.jpg =170x) ![Imgur Image](https://i.imgur.com/oFBY1fZ.jpg =170x) ![Imgur Image](https://i.imgur.com/nqgi6vD.jpg =170x) ![Imgur Image](https://i.imgur.com/o4M5Yte.jpg =170x)
-![Imgur Image](https://i.imgur.com/Tuf2GT4.jpg =170x) ![Imgur Image](https://i.imgur.com/FZcqKcv.jpg =170x) ![Imgur Image](https://i.imgur.com/PO0hGcJ.jpg =170x) ![Imgur Image](https://i.imgur.com/DL6JwI5.jpg =170x)
+<img src="https://i.imgur.com/o3HqqjB.jpg" alt="" width="170"> <img src="https://i.imgur.com/oFBY1fZ.jpg" alt="" width="170"> <img src="https://i.imgur.com/nqgi6vD.jpg" alt="" width="170"> <img src="https://i.imgur.com/o4M5Yte.jpg" alt="" width="170">
+<img src="https://i.imgur.com/Tuf2GT4.jpg" alt="" width="170"> <img src="https://i.imgur.com/FZcqKcv.jpg" alt="" width="170"> <img src="https://i.imgur.com/PO0hGcJ.jpg" alt="" width="170"> <img src="https://i.imgur.com/DL6JwI5.jpg" alt="" width="170">
 -----
 #### - 場景二 社科院走廊：
 （快門紀錄在第8點）
 
-![Imgur Image](https://i.imgur.com/XlN4PQC.jpg =170x) ![Imgur Image](https://i.imgur.com/wOsRig4.jpg =170x) ![Imgur Image](https://i.imgur.com/uAq1OyJ.jpg =170x) ![Imgur Image](https://i.imgur.com/6li24Ib.jpg =170x)
-![Imgur Image](https://i.imgur.com/WNTj2pm.jpg =170x) ![Imgur Image](https://i.imgur.com/VP0DW6V.jpg =170x) ![Imgur Image](https://i.imgur.com/9zKGdbK.jpg =170x) ![Imgur Image](https://i.imgur.com/XM32Zkt.jpg =170x)
-![Imgur Image](https://i.imgur.com/Pcvngt4.jpg =170x) ![Imgur Image](https://i.imgur.com/eNJpD4U.jpg =170x)
+<img src="https://i.imgur.com/XlN4PQC.jpg" alt="" width="170"> <img src="https://i.imgur.com/wOsRig4.jpg" alt="" width="170"> <img src="https://i.imgur.com/uAq1OyJ.jpg" alt="" width="170"> <img src="https://i.imgur.com/6li24Ib.jpg" alt="" width="170">
+<img src="https://i.imgur.com/WNTj2pm.jpg" alt="" width="170"> <img src="https://i.imgur.com/VP0DW6V.jpg" alt="" width="170"> <img src="https://i.imgur.com/9zKGdbK.jpg" alt="" width="170"> <img src="https://i.imgur.com/XM32Zkt.jpg" alt="" width="170">
+<img src="https://i.imgur.com/Pcvngt4.jpg" alt="" width="170"> <img src="https://i.imgur.com/eNJpD4U.jpg" alt="" width="170">
 ---
 
 ## 3. 程式流程 
@@ -40,9 +40,9 @@ Language: python
 我們是用相鄰的兩張快門相片計算相對移動，最後再算出每張照片需的絕對移動。
      
 - 尚未進行Alignment前：
-![Imgur Image](https://i.imgur.com/AnpNiWJ.gif =200x)
+<img src="https://i.imgur.com/AnpNiWJ.gif =200x)
 - 經過MTB Alignment後：
-![Imgur Image](https://i.imgur.com/s6Uliki.gif =200x)
+<img src="https://i.imgur.com/s6Uliki.gif =200x)
 
 可以看到Alignment後晃動比較不明顯，雖然還是有一點晃動，我們覺得是因為照片旁邊的樹葉一直晃所以可能有些影響。
 
@@ -54,24 +54,24 @@ Language: python
 出自[Recovering High Dynamic Range Radiance Maps from Photographs](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Debevec1997RHD.pdf) 
 *    選擇一張代表照片，隨機選擇picture intensity為0到256的各一個點作為sample
 * 執行最小化以下目標方程式
-    ![Imgur Image](https://i.imgur.com/zt4AoRt.jpg =380x)
+    <img src="https://i.imgur.com/zt4AoRt.jpg =380x)
 * 加入權重，去除noise
-    ![Imgur Image](https://i.imgur.com/Oh0eFON.jpg =300x)
+    <img src="https://i.imgur.com/Oh0eFON.jpg =300x)
 #### Radiance Map and Response Curve
 * 總圖：
 ![Library_radiance_map](https://i.imgur.com/7NjhVgV.png =400x) ![Library_response_curve](https://i.imgur.com/KMFT3t6.png =250x)
 * 社科院走廊：
-![Imgur Image](https://i.imgur.com/441sDyO.png =400x)![Imgur Image](https://i.imgur.com/NPtdAzt.png =250x)
+<img src="https://i.imgur.com/441sDyO.png =400x)<img src="https://i.imgur.com/NPtdAzt.png =250x)
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
 * 先設$g$為已知反覆利用以下公式計算$E_i$和$g$的值，直到converge (此處直接設定做8個循環)
-![Imgur Image](https://i.imgur.com/TcW1EFG.jpg =200x)
-![Imgur Image](https://i.imgur.com/0jobIpy.jpg =200x)
+<img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
+<img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
 #### Radiance Map and Response Curve
 * 總圖：
-![Imgur Image](https://i.imgur.com/YZgQJ6k.png =400x) ![Imgur Image](https://i.imgur.com/dXFfRl1.png =250x)
+<img src="https://i.imgur.com/YZgQJ6k.png =400x) <img src="https://i.imgur.com/dXFfRl1.png =250x)
 * 社科院走廊：
-![Imgur Image](https://i.imgur.com/TP37pAm.png =400x) ![Imgur Image](https://i.imgur.com/dOPADBX.png =250x)
+<img src="https://i.imgur.com/TP37pAm.png =400x) <img src="https://i.imgur.com/dOPADBX.png =250x)
 ## 6. Tone mapping
 我們實作了兩種方法：
 #### 1. Global 
@@ -82,17 +82,16 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 使用OpenCV內建tone mapping的Drago method，我們認為自己做出來的方法飽和度比較不漂亮，所以找了一個現有的函式來運用。
 ## 7.Tone mapping results
 - Global Opertor
-<img src="https://i.imgur.com/ivkbPnB.jpg" alt="debevic/Global" width="500">
-![debevic/Global](https://i.imgur.com/ivkbPnB.jpg =500x)
+<img src="https://i.imgur.com/ivkbPnB.jpg" alt="" width="500">
 - Local Operator（Dodging and burning）
 可以看到經過Local Operator的調整後，總圖的建築框線與窗戶的線條變得比原本更明顯。
-![debevic/Local](https://i.imgur.com/vHe1rJ9.jpg =500x)
+<img src="https://i.imgur.com/vHe1rJ9.jpg" alt="" width="500">
 - Drago
-![debevic/Drago](https://i.imgur.com/y6DPSxK.jpg =500x)
+<img src="https://i.imgur.com/y6DPSxK.jpg" alt="" width="500">
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
-| ![Imgur Image](https://i.imgur.com/FTeENnw.jpg =235x) | ![Imgur Image](https://i.imgur.com/Fp3VBLX.jpg =235x) | ![debevic/Drago](https://i.imgur.com/bemYupw.jpg =235x)
+| <img src="https://i.imgur.com/FTeENnw.jpg" alt="" width="235"> | <img src="https://i.imgur.com/Fp3VBLX.jpg" alt="" width="235"> | ![debevic/Drago](https://i.imgur.com/bemYupw.jpg" alt="" width="235">
 
 
 
@@ -100,7 +99,7 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
-| ![Imgur Image](https://i.imgur.com/nwlwE2x.jpg =150x)      | ![Imgur Image](https://i.imgur.com/rOU8DZg.jpg =150x)     | ![debevic/Drago](https://i.imgur.com/jIosxwU.jpg =150x)      |
+| <img src="https://i.imgur.com/nwlwE2x.jpg =150x)      | <img src="https://i.imgur.com/rOU8DZg.jpg =150x)     | ![debevic/Drago](https://i.imgur.com/jIosxwU.jpg =150x)      |
 
 ## 8. 照片的快門秒數：
 [檔名] [快門秒數]
