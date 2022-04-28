@@ -40,9 +40,9 @@ Language: python
 我們是用相鄰的兩張快門相片計算相對移動，最後再算出每張照片需的絕對移動。
      
 - 尚未進行Alignment前：
-<img src="https://i.imgur.com/AnpNiWJ.gif =200x)
+<img src="https://i.imgur.com/AnpNiWJ.gif" alt="" width="200">
 - 經過MTB Alignment後：
-<img src="https://i.imgur.com/s6Uliki.gif =200x)
+<img src="https://i.imgur.com/s6Uliki.gif" alt="" width="200">
 
 可以看到Alignment後晃動比較不明顯，雖然還是有一點晃動，我們覺得是因為照片旁邊的樹葉一直晃所以可能有些影響。
 
@@ -59,19 +59,19 @@ Language: python
     <img src="https://i.imgur.com/Oh0eFON.jpg" alt="" width="300">
 #### Radiance Map and Response Curve
 * 總圖：
-<img src="https://i.imgur.com/7NjhVgV.png =400x) <img src="https://i.imgur.com/KMFT3t6.png =250x)
+<img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="250">
 * 社科院走廊：
-<img src="https://i.imgur.com/441sDyO.png =400x)<img src="https://i.imgur.com/NPtdAzt.png =250x)
+<img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
-* 先設$g$為已知反覆利用以下公式計算$E_i$和$g$的值，直到converge (此處直接設定做8個循環)
+* 先設 $g$ 為已知反覆利用以下公式計算 $E_i$ 和 $g$ 的值，直到converge (此處直接設定做8個循環)
 <img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
 <img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
 #### Radiance Map and Response Curve
 * 總圖：
-<img src="https://i.imgur.com/YZgQJ6k.png =400x) <img src="https://i.imgur.com/dXFfRl1.png =250x)
+<img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="250">
 * 社科院走廊：
-<img src="https://i.imgur.com/TP37pAm.png =400x) <img src="https://i.imgur.com/dOPADBX.png =250x)
+<img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="250">
 ## 6. Tone mapping
 我們實作了兩種方法：
 #### 1. Global 
