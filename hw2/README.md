@@ -32,9 +32,9 @@ b06504104 化工四 石子仙**
     5. 當R大於threshold且是local maximum就視為feature
 - 特徵點照片範例：
 
-<img src="https://i.imgur.com/kG0aEed.jpg" alt="" width="350">  <img src="https://i.imgur.com/1PROMu6.jpg" alt="" width="350"> 
+    <img src="https://i.imgur.com/kG0aEed.jpg" alt="" width="350">  <img src="https://i.imgur.com/1PROMu6.jpg" alt="" width="350"> 
 
-<img src="https://i.imgur.com/BTVJ1Hu.jpg" alt="" width="350">  <img src="https://i.imgur.com/lGHOZ7o.jpg" alt="" width="350">
+    <img src="https://i.imgur.com/BTVJ1Hu.jpg" alt="" width="350">  <img src="https://i.imgur.com/lGHOZ7o.jpg" alt="" width="350">
 
 
 
@@ -64,7 +64,7 @@ b06504104 化工四 石子仙**
 
 - Matching Result
 
-<img src="https://i.imgur.com/f9iJFEq" alt="" width="500"> 
+<img src="https://i.imgur.com/f9iJFEq.jpg"> 
 
 ### - Image Matching
           
