@@ -63,8 +63,10 @@ Language: python
     
 #### Radiance Map and Response Curve
 * 總圖：
+
 <img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="250">
 * 社科院走廊：
+
 <img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
