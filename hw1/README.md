@@ -54,9 +54,9 @@ Language: python
 出自[Recovering High Dynamic Range Radiance Maps from Photographs](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Debevec1997RHD.pdf) 
 *    選擇一張代表照片，隨機選擇picture intensity為0到256的各一個點作為sample
 * 執行最小化以下目標方程式
-    <img src="https://i.imgur.com/zt4AoRt.jpg =380x)
+    <img src="https://i.imgur.com/zt4AoRt.jpg" alt="" width="380">
 * 加入權重，去除noise
-    <img src="https://i.imgur.com/Oh0eFON.jpg =300x)
+    <img src="https://i.imgur.com/Oh0eFON.jpg" alt="" width="300">
 #### Radiance Map and Response Curve
 * 總圖：
 ![Library_radiance_map](https://i.imgur.com/7NjhVgV.png =400x) ![Library_response_curve](https://i.imgur.com/KMFT3t6.png =250x)
@@ -99,7 +99,7 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
-| <img src="https://i.imgur.com/nwlwE2x.jpg =150x)      | <img src="https://i.imgur.com/rOU8DZg.jpg =150x)     | ![debevic/Drago](https://i.imgur.com/jIosxwU.jpg =150x)      |
+| <img src="https://i.imgur.com/nwlwE2x.jpg" alt="" width="150">      | <img src="https://i.imgur.com/rOU8DZg.jpg" alt="" width="150">     | ![debevic/Drago](https://i.imgur.com/jIosxwU.jpg" alt="" width="150">      |
 
 ## 8. 照片的快門秒數：
 [檔名] [快門秒數]
