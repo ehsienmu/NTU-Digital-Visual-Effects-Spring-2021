@@ -63,11 +63,11 @@ Language: python
 #### Radiance Map and Response Curve
 * 總圖：
 
-  <img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="350">
+  <img src="https://i.imgur.com/7NjhVgV.png" alt="" height="350"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" height="350">
 
 * 社科院走廊：
 
-  <img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="350">
+  <img src="https://i.imgur.com/441sDyO.png" alt="" height="350"><img src="https://i.imgur.com/NPtdAzt.png" alt="" height="350">
 
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
@@ -79,11 +79,11 @@ Language: python
 #### Radiance Map and Response Curve
 * 總圖：
 
-  <img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="350">
+  <img src="https://i.imgur.com/YZgQJ6k.png" alt="" height="350"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" height="350">
 
 * 社科院走廊：
 
-  <img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="350">
+  <img src="https://i.imgur.com/TP37pAm.png" alt="" height="350"> <img src="https://i.imgur.com/dOPADBX.png" alt="" height="350">
 
 ## 6. Tone mapping
 我們實作了兩種方法：
