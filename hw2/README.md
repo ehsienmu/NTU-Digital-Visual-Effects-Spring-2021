@@ -9,7 +9,7 @@ b06504104 化工四 石子仙**
 依序拍攝同一定點不同方向之照片，運用feature detection將每張照片的feature找出，再使用feature matching與image matching將照片接在一起，並使用blending使得邊界不那麼明顯來得到一張全景圖。
 ## 2. Our images
 ### - 場景一：頂樓
-<img src="https://i.imgur.com/jNvfpRb.jpg" alt="" width="120">   <img src="https://i.imgur.com/UCy0L8I.jpg" alt="" width="120">   <img src="https://i.imgur.com/Ze0vaKw.jpg" alt="" width="120">]   <img src="https://i.imgur.com/hm4KD5p.jpg" alt="" width="120">   <img src="https://i.imgur.com/8kN8Wqz.jpg" alt="" width="120">   <img src="https://i.imgur.com/VfFvPpc.jpg" alt="" width="120">   <img src="https://i.imgur.com/jasUndh.jpg" alt="" width="120">   <img src="https://i.imgur.com/DrQKU9M.jpg" alt="" width="120">   <img src="https://i.imgur.com/CyYIlmz.jpg" alt="" width="120">   <img src="https://i.imgur.com/rOK08gG.jpg" alt="" width="120">   <img src="https://i.imgur.com/eZMt7tn.jpg" alt="" width="120">   <img src="https://i.imgur.com/QT1Xzx6.jpg" alt="" width="120">   <img src="https://i.imgur.com/DKmDAZV.jpg" alt="" width="120">   <img src="https://i.imgur.com/LQFsbCl.jpg" alt="" width="120">   <img src="https://i.imgur.com/wSXceeR.jpg" alt="" width="120">  
+<img src="https://i.imgur.com/jNvfpRb.jpg" alt="" width="120">  <img src="https://i.imgur.com/UCy0L8I.jpg" alt="" width="120">  <img src="https://i.imgur.com/Ze0vaKw.jpg" alt="" width="120">  <img src="https://i.imgur.com/hm4KD5p.jpg" alt="" width="120">  <img src="https://i.imgur.com/8kN8Wqz.jpg" alt="" width="120">  <img src="https://i.imgur.com/VfFvPpc.jpg" alt="" width="120">  <img src="https://i.imgur.com/jasUndh.jpg" alt="" width="120">  <img src="https://i.imgur.com/DrQKU9M.jpg" alt="" width="120">  <img src="https://i.imgur.com/CyYIlmz.jpg" alt="" width="120">  <img src="https://i.imgur.com/rOK08gG.jpg" alt="" width="120">  <img src="https://i.imgur.com/eZMt7tn.jpg" alt="" width="120">  <img src="https://i.imgur.com/QT1Xzx6.jpg" alt="" width="120">  <img src="https://i.imgur.com/DKmDAZV.jpg" alt="" width="120">  <img src="https://i.imgur.com/LQFsbCl.jpg" alt="" width="120">   <img src="https://i.imgur.com/wSXceeR.jpg" alt="" width="120">  
 
 ### - 場景二：廣場
 <img src="https://i.imgur.com/BTgtxau.jpg" alt="" width="120">  <img src="https://i.imgur.com/Ku7iHvm.jpg" alt="" width="120">  <img src="https://i.imgur.com/F3GCP7Y.jpg" alt="" width="120">  <img src="https://i.imgur.com/UUiGmva.jpg" alt="" width="120">  <img src="https://i.imgur.com/eTdNOED.jpg" alt="" width="120">  <img src="https://i.imgur.com/GcVfKX9.jpg" alt="" width="120">  <img src="https://i.imgur.com/1wbINIS.jpg" alt="" width="120">  <img src="https://i.imgur.com/fSqrKB0.jpg" alt="" width="120">  <img src="https://i.imgur.com/Njhm8nz.jpg" alt="" width="120">  <img src="https://i.imgur.com/w3ep0dp.jpg" alt="" width="120">  <img src="https://i.imgur.com/ziXKEmO.jpg" alt="" width="120">  <img src="https://i.imgur.com/dOQLAnF.jpg" alt="" width="120">  <img src="https://i.imgur.com/ODTxjoR.jpg" alt="" width="120">  <img src="https://i.imgur.com/Bo5wflR.jpg" alt="" width="120">  <img src="https://i.imgur.com/C0wsPp9.jpg" alt="" width="120">  <img src="https://i.imgur.com/Yk6TpJ2.jpg" alt="" width="120">
@@ -78,7 +78,9 @@ b06504104 化工四 石子仙**
           
 - 我們採用一般的線性插值來blending。
 <img src="https://i.imgur.com/cCH7nw4.png" alt="" width="250">
+                                                             
 此圖來自課程投影片lec07_ImageStitching第41頁
+                                                             
 ## Our Panorama
 ### 1. Parrington（老師提供的dataset）
                                                              
@@ -86,21 +88,26 @@ b06504104 化工四 石子仙**
 detect_threshold = 180000
 match_threshold = 400
 ```
-<img src="https://i.imgur.com/tfjlwVB">
+                                                             
+<img src="https://i.imgur.com/tfjlwVB" alt="" >
 
 ### 2. 頂樓
+                                      
 ```
 detect_threshold = 200000
 match_threshold = 600
 ```
-<img src="https://i.imgur.com/5Ml0fX6">
+                                      
+<img src="https://i.imgur.com/5Ml0fX6" alt="" >
 （天氣不好很像廢墟）
                                       
 ### 3. 廣場
+                                      
 ```
 detect_threshold = 4000
 match_threshold = 200
 ```
-<img src="https://i.imgur.com/jwI9mY2">
+                                      
+<img src="https://i.imgur.com/jwI9mY2" alt="" >
 
 
