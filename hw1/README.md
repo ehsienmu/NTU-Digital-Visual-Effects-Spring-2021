@@ -1,6 +1,5 @@
 VFX hw1 report
 ===
-###### tags: `VFX`
 b06504104 化工四 石子仙
 b06303032 資管三 黃佳文
 
@@ -41,11 +40,11 @@ Language: python
      
 - 尚未進行Alignment前：
 
-<img src="https://i.imgur.com/AnpNiWJ.gif" alt="" width="200">
+  <img src="https://i.imgur.com/AnpNiWJ.gif" alt="" width="200">
 
 - 經過MTB Alignment後：
 
-<img src="https://i.imgur.com/s6Uliki.gif" alt="" width="200">
+  <img src="https://i.imgur.com/s6Uliki.gif" alt="" width="200">
 
 可以看到Alignment後晃動比較不明顯，雖然還是有一點晃動，我們覺得是因為照片旁邊的樹葉一直晃所以可能有些影響。
 
@@ -71,16 +70,18 @@ Language: python
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
 * 先設<img src="https://i.imgur.com/wDMuecd.jpg" alt="" width="22">為已知反覆利用以下公式計算<img src="https://i.imgur.com/reQnFni.jpg" alt="" width="22">和<img src="https://i.imgur.com/wDMuecd.jpg" alt="" width="22">的值，直到converge (此處直接設定做8個循環)
-<img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
-<img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
+
+  <img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
+  <img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
 
 #### Radiance Map and Response Curve
 * 總圖：
 
-<img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="250">
+  <img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="250">
+
 * 社科院走廊：
 
-<img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="250">
+  <img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="250">
 
 ## 6. Tone mapping
 我們實作了兩種方法：
@@ -98,16 +99,16 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 
 - Global Opertor
 
-<img src="https://i.imgur.com/ivkbPnB.jpg" alt="" width="500">
+  <img src="https://i.imgur.com/ivkbPnB.jpg" alt="" width="500">
 
 - Local Operator（Dodging and burning）
 
-可以看到經過Local Operator的調整後，總圖的建築框線與窗戶的線條變得比原本更明顯。
-<img src="https://i.imgur.com/vHe1rJ9.jpg" alt="" width="500">
+  可以看到經過Local Operator的調整後，總圖的建築框線與窗戶的線條變得比原本更明顯。
+  <img src="https://i.imgur.com/vHe1rJ9.jpg" alt="" width="500">
 
 - Drago
 
-<img src="https://i.imgur.com/y6DPSxK.jpg" alt="" width="500">
+  <img src="https://i.imgur.com/y6DPSxK.jpg" alt="" width="500">
 
 | Global | Local | Drago |
 | -------- | -------- | -------- |
