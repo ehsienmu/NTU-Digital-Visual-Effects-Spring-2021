@@ -57,6 +57,7 @@ Language: python
     <img src="https://i.imgur.com/zt4AoRt.jpg" alt="" width="380">
 * 加入權重，去除noise
     <img src="https://i.imgur.com/Oh0eFON.jpg" alt="" width="300">
+    
 #### Radiance Map and Response Curve
 * 總圖：
 <img src="https://i.imgur.com/7NjhVgV.png" alt="" width="400"> <img src="https://i.imgur.com/KMFT3t6.png" alt="" width="250">
@@ -67,6 +68,7 @@ Language: python
 * 先設 $g$ 為已知反覆利用以下公式計算 $E_i$ 和 $g$ 的值，直到converge (此處直接設定做8個循環)
 <img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
 <img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
+
 #### Radiance Map and Response Curve
 * 總圖：
 <img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="250">
@@ -74,13 +76,18 @@ Language: python
 <img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="250">
 ## 6. Tone mapping
 我們實作了兩種方法：
+
 #### 1. Global 
 由HDR結果計算整張Image的平均亮度，再Normalized各個pixel，計算LDR的值。
+
 #### 2. Local Operator（Dodging and burning）
 Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮，暗的地方更暗，加強對比。
+
 #### 3. OpenCV: Drago
 使用OpenCV內建tone mapping的Drago method，我們認為自己做出來的方法飽和度比較不漂亮，所以找了一個現有的函式來運用。
+
 ## 7.Tone mapping results
+
 - Global Opertor
 <img src="https://i.imgur.com/ivkbPnB.jpg" alt="" width="500">
 - Local Operator（Dodging and burning）
