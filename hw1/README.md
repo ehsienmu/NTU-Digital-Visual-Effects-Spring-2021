@@ -40,8 +40,11 @@ Language: python
 我們是用相鄰的兩張快門相片計算相對移動，最後再算出每張照片需的絕對移動。
      
 - 尚未進行Alignment前：
+
 <img src="https://i.imgur.com/AnpNiWJ.gif" alt="" width="200">
+
 - 經過MTB Alignment後：
+
 <img src="https://i.imgur.com/s6Uliki.gif" alt="" width="200">
 
 可以看到Alignment後晃動比較不明顯，雖然還是有一點晃動，我們覺得是因為照片旁邊的樹葉一直晃所以可能有些影響。
@@ -92,11 +95,16 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 ## 7.Tone mapping results
 
 - Global Opertor
+
 <img src="https://i.imgur.com/ivkbPnB.jpg" alt="" width="500">
+
 - Local Operator（Dodging and burning）
+
 可以看到經過Local Operator的調整後，總圖的建築框線與窗戶的線條變得比原本更明顯。
 <img src="https://i.imgur.com/vHe1rJ9.jpg" alt="" width="500">
+
 - Drago
+
 <img src="https://i.imgur.com/y6DPSxK.jpg" alt="" width="500">
 
 | Global | Local | Drago |
