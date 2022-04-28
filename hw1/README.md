@@ -82,6 +82,7 @@ Local Operator考慮了鄰近區域的平均亮度，使得亮的地方會更亮
 使用OpenCV內建tone mapping的Drago method，我們認為自己做出來的方法飽和度比較不漂亮，所以找了一個現有的函式來運用。
 ## 7.Tone mapping results
 - Global Opertor
+<img src="https://i.imgur.com/ivkbPnB.jpg" alt="debevic/Global" width="500">
 ![debevic/Global](https://i.imgur.com/ivkbPnB.jpg =500x)
 - Local Operator（Dodging and burning）
 可以看到經過Local Operator的調整後，總圖的建築框線與窗戶的線條變得比原本更明顯。
