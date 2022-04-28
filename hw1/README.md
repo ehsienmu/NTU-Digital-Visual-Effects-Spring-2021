@@ -65,15 +65,18 @@ Language: python
 <img src="https://i.imgur.com/441sDyO.png" alt="" width="400"><img src="https://i.imgur.com/NPtdAzt.png" alt="" width="250">
 #### 2. Robertson's method：
 出自[Estimation- Theoretic Approach to Dynamic Range Enhancement using Multiple Exposures](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/papers/Robertson2003ETA.pdf) 
-* 先設 $g$ 為已知反覆利用以下公式計算 $E_i$ 和 $g$ 的值，直到converge (此處直接設定做8個循環)
+* 先設<img src="https://render.githubusercontent.com/render/math?math=g">為已知反覆利用以下公式計算 $E_i$ 和 $g$ 的值，直到converge (此處直接設定做8個循環)
 <img src="https://i.imgur.com/TcW1EFG.jpg" alt="" width="200">
 <img src="https://i.imgur.com/0jobIpy.jpg" alt="" width="200">
 
 #### Radiance Map and Response Curve
 * 總圖：
+* 
 <img src="https://i.imgur.com/YZgQJ6k.png" alt="" width="400"> <img src="https://i.imgur.com/dXFfRl1.png" alt="" width="250">
 * 社科院走廊：
+* 
 <img src="https://i.imgur.com/TP37pAm.png" alt="" width="400"> <img src="https://i.imgur.com/dOPADBX.png" alt="" width="250">
+
 ## 6. Tone mapping
 我們實作了兩種方法：
 
